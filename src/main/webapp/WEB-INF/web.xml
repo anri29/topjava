@@ -6,14 +6,24 @@
 
     <display-name>Topjava</display-name>
 
-    <servlet>
+    <servlet>  <!-- Здесь прописан путь к классу java-->
         <servlet-name>userServlet</servlet-name>
         <servlet-class>ru.javawebinar.topjava.web.UserServlet</servlet-class>
         <load-on-startup>0</load-on-startup>
     </servlet>
-    <servlet-mapping>
+    <servlet-mapping> <!-- здесь прописан путь к куску адресной строки вызывающей сервлет-->
         <servlet-name>userServlet</servlet-name>
         <url-pattern>/users</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>MealServlet</servlet-name>
+        <servlet-class>ru.javawebinar.topjava.web.MealServlet</servlet-class>
+        <load-on-startup>0</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MealServlet</servlet-name>
+        <url-pattern>/meals</url-pattern>
     </servlet-mapping>
 
 </web-app>
