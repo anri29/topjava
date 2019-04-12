@@ -1,5 +1,5 @@
 package ru.javawebinar.topjava.model;
-
+//list for id and names for users
 public abstract class AbstractNamedEntity extends AbstractBaseEntity {
 
     protected String name;

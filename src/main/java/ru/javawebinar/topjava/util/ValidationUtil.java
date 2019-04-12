@@ -3,7 +3,7 @@ package ru.javawebinar.topjava.util;
 
 import ru.javawebinar.topjava.model.AbstractBaseEntity;
 import ru.javawebinar.topjava.util.exception.NotFoundException;
-
+//validation for user on id
 public class ValidationUtil {
 
     public static <T> T checkNotFoundWithId(T object, int id) {

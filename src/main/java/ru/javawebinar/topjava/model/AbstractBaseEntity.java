@@ -1,5 +1,5 @@
 package ru.javawebinar.topjava.model;
-
+//id users
 public abstract class AbstractBaseEntity {
     protected Integer id;
 

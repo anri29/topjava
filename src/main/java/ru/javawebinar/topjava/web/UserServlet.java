@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
-
+//servlet for users
 public class UserServlet extends HttpServlet {
     private static final Logger log = getLogger(UserServlet.class);
     @Override

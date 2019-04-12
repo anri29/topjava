@@ -5,7 +5,7 @@ import ru.javawebinar.topjava.model.User;
 import ru.javawebinar.topjava.util.exception.NotFoundException;
 
 import java.util.List;
-
+//connect with user
 public interface UserService {
 
     User create(User user);
